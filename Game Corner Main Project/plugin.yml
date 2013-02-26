@@ -1,0 +1,24 @@
+name: TheGameCorner
+main: me.zeus.GameCorner.Main
+author: ZeusAllMighty11
+description: The Game Corner official 
+version: 1.1
+commands:
+  donate:
+    description: How to donate
+    syntax: /donate <iron/gold/diamond/emerald>
+  clear:
+    description: Clears chat
+    syntax: /clear
+  donators:
+    description: List all donators to the server
+    syntax: /donators
+  vote:
+    description: Vote for the server
+    syntax: /vote
+  tgc-rl:
+    description: Reload TGC config
+    syntax: /tgc-rl
+  credits:
+    description: Check current voting credits balance
+    syntax: /credits
