@@ -54,9 +54,7 @@ public class Main extends JavaPlugin {
         getCommand("donators").setExecutor(donatehandler);
 
         getCommand("clear").setExecutor(basicCommands);
-       
-        getCommand("tgc-rl").setExecutor(basicCommands);
-        
+               
         playersconfig.reloadPlayers();
         playersconfig.savePlayers();
 

@@ -61,8 +61,8 @@ public class VoteHandler implements Listener, CommandExecutor {
 
         if (cmd.getName().equalsIgnoreCase("vote")) {
             if (sender instanceof Player) {
-                sender.sendMessage(prefix + yellow + "**Vote for our server: **");
-                sender.sendMessage(prefix + ChatColor.LIGHT_PURPLE + "> > > http://bit.ly/Wi5uRJ < < <");
+                sender.sendMessage(prefix + yellow + "" + ChatColor.BOLD + "**Vote for our server**");
+                sender.sendMessage(prefix + ChatColor.LIGHT_PURPLE + "> > > http://bit.ly/XXtbzi < < <");
                 sender.sendMessage(prefix + yellow + "Every time you vote, you gain a credit, which are used to buy exclusive items.");
                 sender.sendMessage(prefix + yellow + "Total credits: " + ChatColor.RED + getCredits((Player) sender));
             }

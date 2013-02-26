@@ -38,77 +38,81 @@ public class DonateHandler implements CommandExecutor {
             if (cmd.getName().equalsIgnoreCase("donate")) {
 
                 if (args.length == 0) {
-                    sender.sendMessage(ChatColor.GRAY + "================================================ ");
+                    sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
                     sender.sendMessage(ChatColor.GRAY + "\n    [Iron]                " + ChatColor.GREEN + "    $5.00 USD");
                     sender.sendMessage(ChatColor.YELLOW + "    [Gold]                " + ChatColor.GREEN + "    $10.00 USD");
                     sender.sendMessage(ChatColor.AQUA + "    [Diamond]                " + ChatColor.GREEN + "$25.00 USD");
                     sender.sendMessage(ChatColor.GREEN + "    [Emerald]                " + ChatColor.GREEN + "$50.00 USD");
                     sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/Vbvm0D \n");
-                    sender.sendMessage(ChatColor.GRAY + "================================================ ");
+                    sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
                 }
 
                 if (args.length == 1) {
 
                     if (args[0].equalsIgnoreCase("iron")) {
 
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
                         sender.sendMessage(ChatColor.WHITE + "                 [Iron] " + ChatColor.GREEN + "$5.00 USD");
-                        sender.sendMessage(ChatColor.GRAY + "         - /nick (Choose a new nickname, can be colored!)");
-                        sender.sendMessage(ChatColor.GRAY + "         - Iron rank on forums");
-                        sender.sendMessage(ChatColor.GRAY + "         - Ability to fly");
-                        sender.sendMessage(ChatColor.GRAY + "         - Iron Kit Choice");
-                        sender.sendMessage(ChatColor.GRAY + "         - Iron Kit exclusive NEW items");
-                        sender.sendMessage(ChatColor.GRAY + "         - $100 in-game");
-                        sender.sendMessage(ChatColor.GRAY + "         - Join when server is full");
-                        sender.sendMessage(ChatColor.GRAY + "         - 5 credits");
-                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/Vbvm0D \n");
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "- Ability to join the server when it's full");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /fly command");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /kit Iron command");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /nick command, to set nickname");
+                        sender.sendMessage(ChatColor.GRAY + "- Ability to craft enderbow!");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to craft spiderbow!");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to craft mineshine!");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to craft chocolate milk!");
+                        sender.sendMessage(ChatColor.GRAY + "- 5 credits");
+                        sender.sendMessage(ChatColor.GRAY + "- $1000 in-game-cash");
+                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/YUagGv");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
 
                     } else
 
                     if (args[0].equalsIgnoreCase("gold")) {
 
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
-                        sender.sendMessage(ChatColor.WHITE + "                 [Gold] " + ChatColor.GREEN + "$10.00 USD");
-                        sender.sendMessage(ChatColor.GRAY + "         - All of the iron perks)");
-                        sender.sendMessage(ChatColor.GRAY + "         - Gold rank on forums");
-                        sender.sendMessage(ChatColor.GRAY + "         - Gold Kit Choice");
-                        sender.sendMessage(ChatColor.GRAY + "         - Access to /rename, so you can rename your tools + armor!");
-                        sender.sendMessage(ChatColor.GRAY + "         - $200 in-game");
-                        sender.sendMessage(ChatColor.GRAY + "         - 10 credits");
-                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/Vbvm0D \n");
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
+                        sender.sendMessage(ChatColor.GOLD + "                 [Gold] " + ChatColor.GREEN + "$10.00 USD");
+                        sender.sendMessage(ChatColor.GRAY + "- Ability to join the server when it's full");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /kit Gold command");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /nick command, to set nickname with color!");
+                        sender.sendMessage(ChatColor.GRAY + "- All pervious perks");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to craft flash grenades!");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to craft lightning grenades!");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to craft coffee");
+                        sender.sendMessage(ChatColor.GRAY + "- 10 credits");
+                        sender.sendMessage(ChatColor.GRAY + "- $2000 in-game-cash");
+                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/YUagGv");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
 
                     } else
 
                     if (args[0].equalsIgnoreCase("diamond")) {
 
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
                         sender.sendMessage(ChatColor.WHITE + "                 [Diamond] " + ChatColor.GREEN + "$25.00 USD");
-                        sender.sendMessage(ChatColor.GRAY + "         - All of the gold perks)");
-                        sender.sendMessage(ChatColor.GRAY + "         - Diamond rank on forums");
-                        sender.sendMessage(ChatColor.GRAY + "         - Signature on forums");
-                        sender.sendMessage(ChatColor.GRAY + "         - Diamond Kit Choice (enchanted) ");
-                        sender.sendMessage(ChatColor.GRAY + "         - $1,000 in-game");
-                        sender.sendMessage(ChatColor.GRAY + "         - 25 credits");
-                        sender.sendMessage(ChatColor.GRAY + "         - Access to /rename , so you can rename your tools + armor! (WITH COLOR)");
-                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/Vbvm0D \n");
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "- All previous perks");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /kit Diamond command");
+                        sender.sendMessage(ChatColor.GRAY + "- Ability to craft Explosive Bow!");
+                        sender.sendMessage(ChatColor.GRAY + "- 25 credits");
+                        sender.sendMessage(ChatColor.GRAY + "- $5,000 in-game-cash");
+                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/YUagGv");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
 
                     } else
 
                     if (args[0].equalsIgnoreCase("emerald")) {
 
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
                         sender.sendMessage(ChatColor.WHITE + "                 [Emerald] " + ChatColor.GREEN + "$50.00 USD");
-                        sender.sendMessage(ChatColor.GRAY + "         - All of the diamond perks)");
-                        sender.sendMessage(ChatColor.GRAY + "         - Emerald rank on forums");
-                        sender.sendMessage(ChatColor.GRAY + "         - Emerald Kit Choice ");
-                        sender.sendMessage(ChatColor.GRAY + "         - Ability to join when server is full ");
-                        sender.sendMessage(ChatColor.GRAY + "         - Access to /gamemode creative in the survival world.");
-                        sender.sendMessage(ChatColor.GRAY + "         - 50 credits");
-                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/Vbvm0D \n");
-                        sender.sendMessage(ChatColor.GRAY + "=============================================");
+                        sender.sendMessage(ChatColor.GRAY + "- All previous perks");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /kit Emerald command");
+                        sender.sendMessage(ChatColor.GRAY + "- Ability to craft everything!");
+                        sender.sendMessage(ChatColor.GRAY + "- Access to /gamemode command");
+                        sender.sendMessage(ChatColor.GRAY + "- Ability to place/destroy bedrock");
+                        sender.sendMessage(ChatColor.GRAY + "- 50 credits");
+                        sender.sendMessage(ChatColor.GRAY + "- $10,000 in-game-cash");
+                        sender.sendMessage(ChatColor.DARK_AQUA + "\n http://bit.ly/YUagGv");
+                        sender.sendMessage(ChatColor.GRAY + "" + ChatColor.BOLD + "---------------------------------------------");
 
                     }
 

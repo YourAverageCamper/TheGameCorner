@@ -28,19 +28,15 @@ public class BasicCommands implements CommandExecutor {
             if (cmd.getName().equalsIgnoreCase("clear")) {
                 if (sender.hasPermission("TheGameCorner.Clear.All")) {
                     
-                    plugin.getServer().broadcastMessage("\n");
-                    
+                    for(int i=0;i<100;i++){
+                        plugin.getServer().broadcastMessage("\n");
+                    }
                     
                     plugin.getServer().broadcastMessage("Chat has been cleared by an " + ChatColor.RED + "Administrator");
 
                 } else {
                     sender.sendMessage(ChatColor.RED + " Don't have permission to do this... ");
                 }
-            }
-
-            else if (cmd.getName().equalsIgnoreCase("tgc-rl")) {
-                plugin.reloadConfig();
-                sender.sendMessage(ChatColor.GREEN + " TheGameCorner configuration file reloaded. ");
             }
 
         }

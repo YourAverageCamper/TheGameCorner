@@ -20,7 +20,7 @@ public class PingEvent implements Listener {
     public void onPing(final ServerListPingEvent e) {
 
         if (plugin.getConfig().getBoolean("Booleans.PingEvent") == true && plugin.getConfig() != null) {
-            final String motd = "§l§k§o§nZ§r§e§l[§r§f§lTGC§e§l]§r§l§k§n§oZ§r §2§l|§r §a§l§nRoleplay§r §2§l|§r §d§lServer§r";
+            final String motd = "§l§k§o§nZ§r§e§l[§r§f§lTGC§e§l]§r§l§k§n§oZ§r §2§l|§r §a§l§nMedieval§r §2§l|§r §d§lRoleplay§r";
             e.setMotd(motd);
         }
     }
